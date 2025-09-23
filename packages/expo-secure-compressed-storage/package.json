@@ -1,6 +1,6 @@
 {
     "name": "@apogeelabs/expo-secure-compressed-storage",
-    "version": "0.0.0",
+    "version": "0.0.4",
     "description": "expo-secure-storage wrapper that adds compression and chunking",
     "author": "Apogee Travel",
     "contributors": [
@@ -47,6 +47,7 @@
     "devDependencies": {
         "@types/jest": "^29.5.5",
         "@types/lodash": "^4.14.202",
+        "@types/text-encoding": "^0.0.40",
         "eslint": "^8.0.1",
         "eslint-config-standard": "^17.1.0",
         "eslint-plugin-import": "^2.25.2",
@@ -60,6 +61,7 @@
     },
     "dependencies": {
         "expo-secure-store": "~13.0.2",
-        "lz-string": "^1.5.0"
+        "lz-string": "^1.5.0",
+        "text-encoding": "^0.7.0"
     }
 }
