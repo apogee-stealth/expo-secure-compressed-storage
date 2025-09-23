@@ -16,18 +16,18 @@ The monorepo utilizes several tools:
 
 ## Project Configuration
 
--   **TypeScript**: Configuration in `tsconfig.json`
--   **Turborepo**: Pipeline configuration in `turbo.json`
--   **tsup**: Build configuration in `tsup.config.ts`
--   **Jest**: Test configuration typically in each package's `jest.config.js`
+- **TypeScript**: Configuration in `tsconfig.json`
+- **Turborepo**: Pipeline configuration in `turbo.json`
+- **tsup**: Build configuration in `tsup.config.ts`
+- **Jest**: Test configuration typically in each package's `jest.config.js`
 
 ## Prerequisites
 
 Before you begin, ensure you have the following installed:
 
--   [Node.js](https://nodejs.org/) - version 20 or higher
--   [pnpm](https://pnpm.io/) - version 8.7.5 or higher
--   [Git](https://git-scm.com/) (LOL, if you don't have this, we have bigger problems)
+- [Node.js](https://nodejs.org/) - version 20 or higher
+- [pnpm](https://pnpm.io/) - version 8.7.5 or higher
+- [Git](https://git-scm.com/) (LOL, if you don't have this, we have bigger problems)
 
 ## Repository Structure
 
@@ -153,10 +153,10 @@ pnpm version-packages
 
 This command:
 
--   Reads all changesets
--   Updates package versions accordingly
--   Updates dependencies between packages
--   Generates or updates CHANGELOG.md files
+- Reads all changesets
+- Updates package versions accordingly
+- Updates dependencies between packages
+- Generates or updates CHANGELOG.md files
 
 At this point you can commit to main if needed, however, changeset is also supposed to handle this for you in the release step.
 
@@ -233,7 +233,6 @@ For local dependencies between packages in the monorepo, use the `workspace:*` o
 
 ## Additional Resources
 
--   [MobX Documentation](https://mobx.js.org/)
--   [pnpm Workspace Documentation](https://pnpm.io/workspaces)
--   [Turborepo Documentation](https://turbo.build/repo/docs)
--   [Changesets Documentation](https://github.com/changesets/changesets/blob/main/docs/intro-to-using-changesets.md)
+- [pnpm Workspace Documentation](https://pnpm.io/workspaces)
+- [Turborepo Documentation](https://turbo.build/repo/docs)
+- [Changesets Documentation](https://github.com/changesets/changesets/blob/main/docs/intro-to-using-changesets.md)
