@@ -54,8 +54,8 @@ importers:
   packages/expo-secure-compressed-storage:
     dependencies:
       expo-secure-store:
-        specifier: ~13.0.2
-        version: 13.0.2(expo@54.0.10)
+        specifier: ~15.0.8
+        version: 15.0.8(expo@54.0.10)
       lz-string:
         specifier: ^1.5.0
         version: 1.5.0
@@ -4535,8 +4535,8 @@ packages:
       react-native: 0.81.4(@babel/core@7.28.4)(react@19.1.1)
     dev: false
 
-  /expo-secure-store@13.0.2(expo@54.0.10):
-    resolution: {integrity: sha512-3QYgoneo8p8yeeBPBiAfokNNc2xq6+n8+Ob4fAlErEcf4H7Y72LH+K/dx0nQyWau2ZKZUXBxyyfuHFyVKrEVLg==}
+  /expo-secure-store@15.0.8(expo@54.0.10):
+    resolution: {integrity: sha512-lHnzvRajBu4u+P99+0GEMijQMFCOYpWRO4dWsXSuMt77+THPIGjzNvVKrGSl6mMrLsfVaKL8BpwYZLGlgA+zAw==}
     peerDependencies:
       expo: '*'
     dependencies:
