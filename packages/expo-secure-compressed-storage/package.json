@@ -1,6 +1,6 @@
 {
     "name": "@apogeelabs/expo-secure-compressed-storage",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "expo-secure-storage wrapper that adds compression and chunking",
     "author": "Apogee Travel",
     "contributors": [
@@ -41,7 +41,7 @@
     "keywords": [
         "react-native",
         "expo",
-        "expo-secur-storage",
+        "expo-secure-storage",
         "storage"
     ],
     "devDependencies": {
@@ -60,7 +60,7 @@
         "typescript": "^5.2.2"
     },
     "dependencies": {
-        "expo-secure-store": "~13.0.2",
+        "expo-secure-store": "~15.0.8",
         "lz-string": "^1.5.0",
         "text-encoding": "^0.7.0"
     }
